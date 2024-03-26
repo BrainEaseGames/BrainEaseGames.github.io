@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TM3JTQDGPK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-TM3JTQDGPK');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Play Free Online Solitaire (Patience) Games - Daily Challenges & Hints</title>
+  <meta name="description" content="Enjoy free online Klondike Solitaire (Patience) games. With daily challenges, winnable deals, helpful hints, and unlimited undo's.">
+  <meta name="keywords" content="solitaire games, Patience, free online solitaire, solitaire with hints, daily solitaire challenges">
+
+  <!-- Open Graph Metadata -->
+  <meta property="og:title" content="Play Free Online Solitaire (Patience) Games - Daily Challenges & Hints">
+  <meta property="og:site_name" content="Free Online Solitaire (Patience) Destination">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://solifan.fun/solitaire/">
+  <meta property="og:image" content="https://solifan.fun/solitaire/images/frontpage_solitaire_desktop@2x.jpg">
+  <meta property="og:image:width" content="960">
+  <meta property="og:image:height" content="600">
+  <meta property="og:description" content="Enjoy free online Klondike Solitaire games. With daily challenges, winnable deals, helpful hints, and unlimited undo's.">
+  <meta property="article:modified_time" content="2024-03-01T00:00:00.000Z">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="https://solifan.fun/solitaire/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://solifan.fun/solitaire/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://solifan.fun/solitaire/images/favicon-16x16.png">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://solifan.fun/solitaire/">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://solifan.fun/css/main.css">
+  <link rel="stylesheet" href="https://solifan.fun/css/home.css">
+
+  <!-- Hotjar Tracking -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3890436, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</head>
+
+<body style="text-align: center; padding: 0; border: 0; margin: 0;">
+  <nav class="top-menu" aria-label="Top Menu">
+    <a href="https://solifan.fun/">Home</a>
+    <a href="https://solifan.fun/solitaire/"><img src="https://solifan.fun/solitaire/images/favicon-32x32.png" alt="Solitaire">Solitaire</a>
+    <a href="https://solifan.fun/mahjong/"><img src="https://solifan.fun/mahjong/images/favicon-32x32.png" alt="Mahjong">Mahjong</a>
+    <a href="https://solifan.fun/sudoku/"><img src="https://solifan.fun/sudoku/images/favicon-32x32.png" alt="Sudoku">Sudoku</a>
+    <a href="https://solifan.fun/backgammon/"><img src="https://solifan.fun/backgammon/images/favicon-32x32.png" alt="Backgammon">Backgammon</a>
+    <a href="https://solifan.fun/slots/"><img src="https://solifan.fun/slots/images/favicon-32x32.png" alt="Slots">Slots</a>
+    <a href="https://solifan.fun/spider/"><img src="https://solifan.fun/spider/images/favicon-32x32.png" alt="Spider">Spider</a>
+    <a href="https://solifan.fun/freecell/"><img src="https://solifan.fun/freecell/images/favicon-32x32.png" alt="FreeCell">FreeCell</a>
+  </nav>
+  
+  <canvas id="unity-canvas" width=960 height=600 tabindex="-1" style="width: 960px; height: 600px; background: #1F1F20"></canvas>
+  <script src="Build/Web.loader.js"></script>
+  <script>
+    if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      // Mobile device style: fill the whole browser client area with the game canvas:
+      var meta = document.createElement('meta');
+      meta.name = 'viewport';
+      meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+      document.getElementsByTagName('head')[0].appendChild(meta);
+  
+      var canvas = document.querySelector("#unity-canvas");
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
+      canvas.style.position = "fixed";
+  
+      document.body.style.textAlign = "left";
+    }
+  
+    createUnityInstance(document.querySelector("#unity-canvas"), {
+      dataUrl: "Build/Web.data.gz",
+      frameworkUrl: "Build/Web.framework.js.gz",
+      codeUrl: "Build/Web.wasm.gz",
+      streamingAssetsUrl: "StreamingAssets",
+      companyName: "BrainEaseGames",
+      productName: "klondike.solifan.fun",
+      productVersion: "1.0.1",
+      // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+      // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+    });
+  </script>
+
+  <div id="about">
+    <div id="introduction" class="container">
+      <div class="content">
+        <h1 class="text-center">Free Online Solitaire (Patience) Games</h1>
+        <p class="tagline text-center"><b>Take a break and enjoy some quality time - play Solitaire. Challenge yourself with daily puzzles or relax with winnable games. Either way, you'll have fun and keep your mind sharp. No signup required.</b></p>
+      </div>
+    </div>
+    <div id="rules" class="container">
+      <div>
+        <h2>How to Play Solitaire</h2>
+      </div>
+      <div>
+        <p><b><font size="6">Game Rules</font></b></p>
+        <p>The goal of the game is to move all the cards to the foundations, keeping your mind agile in the process.</p>
+        <img class="lazyloaded" data-expand="20" itemprop="" width="480" height="210" alt="Screenshot of free Online Solitaire" src="https://solifan.fun/solitaire/images/howto_solitaire_0.png"https://solifan.fun/>
+        <p>Each foundation should contain cards from one suit only (Diamonds, Hearts, Clubs, or Spades). You can only move cards to foundations in ascending order – starting with Ace, Two, Three, and all the way up to a King.</p>
+        <p><b>The Stock:</b></p>
+        <img class="lazyloaded" data-expand="20" itemprop="" width="480" height="230" alt="Screenshot of free Online Solitaire" src="https://solifan.fun/solitaire/images/howto_solitaire_1.png"https://solifan.fun/>
+        <p>Tap the stock to move 1 or 3 cards to the waste (1 or 3 cards – depending on the game mode you chose from the options menu). Once the stock is empty, tap it to return all the cards from the waste back to the stock.</p>
+        <p>Cards can be moved to the piles from the waste or from another pile, in the following cases:</p>
+        <ol>
+          <li>Only a King can be moved to an empty pile.</li>
+          <li>All other cards can be moved over other cards if they are in descending order and in an alternate color.</li>
+        </ol>
+        <img class="lazyloaded" data-expand="20" itemprop="" width="480" height="210" alt="Screenshot of free Online Solitaire" src="https://solifan.fun/solitaire/images/howto_solitaire_2.png"https://solifan.fun/>
+        <p>For example: 8 of Diamonds (Red) can be moved over 9 of Clubs (Black). Queen of Spades (Black) can be moved over King of Hearts (Red).</p>
+        <li>A group of cards can be moved together onto another pile if the top card can be moved.</li>
+        <p>For example: A group of 5 of Diamond, 4 of Clubs, and 3 of Diamond can be moved on top of 6 of Spades.</p>
+        <p>When the game starts, some of the cards in the piles are facing down. They will be automatically flipped if no other cards are stacked on top of them - the key to winning in Solitaire is to flip all the cards!</p>
+        <p><b>Vegas Rules:</b></p>
+        <p>Vegas Rules differ from the classic rules by the fact that for the draw 1 game - only one pass is allowed through the stock, and for the draw 3 game – only 3 passes are allowed.</p>
+        <p>Vegas games start with -52 points, and 5 points are awarded for each card that is moved to the foundation, so you will need to move 11 cards for a positive score.</p>
+        <p><b>Tips:</b></p>
+        <ul>
+          <li>Move cards by dragging them, or just tap a card to move it automatically to the next available spot.</li>
+          <li>Remember, not all Solitaire games have a solution, so if you can't find a solution, start again or play a solvable game from the menu. Solvable games are guaranteed to have a solution (although it may not be an easy solution).</li>
+        </ul>
+        <p class="text_section">Good luck while playing!</p>
+      </div>
+    </div>
+    <div id="faq" class="container">
+      <div>
+        <h1>Frequently Asked Questions (FAQ)</h1>
+        
+        <h2>What are some strategies to improve my skills in the solitaire game?</h2>
+        <p>To enhance your skills in the solitaire game, consider the following strategies:</p>
+        <ul>
+            <li>Always prioritize moving cards from the bottom.</li>
+            <li>Try to move red cards whenever possible.</li>
+            <li>Avoid uncovering new piles unless you have a clear plan.</li>
+        </ul>
+
+        <h2>What are some other card games similar to solitaire?</h2>
+        <p>Apart from solitaire, there are several other card games similar to it, such as Spider Solitaire, FreeCell, and Pyramid Solitaire.</p>
+
+        <h2>What are the differences between solitaire and spider solitaire?</h2>
+        <p>The main differences lie in the layout and rules. For instance, Spider Solitaire uses multiple decks and exposes all cards at the beginning, while solitaire typically uses a single deck and only reveals one card at a time during gameplay.</p>
+
+        <h2>How many rows are there in a solitaire game layout?</h2>
+        <p>Most solitaire game layouts typically consist of seven rows, although there may be variations with fewer or more rows.</p>
+
+        <h2>Is it possible to win every solitaire game?</h2>
+        <p>In general, every solitaire game is potentially winnable, but success depends on factors such as player skill, luck, and understanding of the game.</p>
+
+      </div>
+      <div>
+        <p class="text_section">
+          If your questions aren't answered by our FAQ below, please reach out at <a href="#">BrainEaseGames@outlook.com</a>, and we'll do our best to help you.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="game-links" aria-label="Game Links">
+    <a href="https://solifan.fun/" class="hover:text-gray-900">Home</a>
+    <a href="https://solifan.fun/solitaire/" class="hover:text-gray-900"><img src="https://solifan.fun/solitaire/images/favicon-32x32.png" class="fas" alt="Solitaire">Solitaire</a>
+    <a href="https://solifan.fun/mahjong/" class="hover:text-gray-900"><img src="https://solifan.fun/mahjong/images/favicon-32x32.png" class="fas" alt="Mahjong">Mahjong</a>
+    <a href="https://solifan.fun/sudoku/" class="hover:text-gray-900"><img src="https://solifan.fun/sudoku/images/favicon-32x32.png" class="fas" alt="Sudoku">Sudoku</a>
+    <a href="https://solifan.fun/backgammon/" class="hover:text-gray-900"><img src="https://solifan.fun/backgammon/images/favicon-32x32.png" class="fas" alt="Backgammon">Backgammon</a>
+    <a href="https://solifan.fun/slots/" class="hover:text-gray-900"><img src="https://solifan.fun/slots/images/favicon-32x32.png" class="fas" alt="Slots">Slots</a>
+    <a href="https://solifan.fun/spider/" class="hover:text-gray-900"><img src="https://solifan.fun/spider/images/favicon-32x32.png" class="fas" alt="Spider">Spider</a>
+    <a href="https://solifan.fun/freecell/" class="hover:text-gray-900"><img src="https://solifan.fun/freecell/images/favicon-32x32.png" class="fas" alt="FreeCell">FreeCell</a>
+  </nav>
+
+
+</body>
+
+</html>
